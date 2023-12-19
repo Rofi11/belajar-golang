@@ -1,0 +1,27 @@
+1. ketika mau membuat sebuah program wajib buat => package main
+2. import "fmt" => sebuah command utk mencetak tulisan 
+
+3. untuk mengcompile golang ==> go build helloWorld.go
+4. ls -l utk mengecek data yang ada pada folder tersebut
+
+5. go run main.go ==> hanya untk di development
+6. di production wajib di compile terlebih dahulu
+
+7. data habis compile akanmengikuti OS nya, jika di mac akan mengikuti IOS, di LInux, atau di wondows tergantung Os komputer nya
+8. untuk eksekusi/running binary file data yang suadh di compiled ==> ./nama-file ==> ./HelloWorld
+
+9. dalam penulisan golang ==> golang merupakan bahasa pemograman yang case sensitive
+
+10. tipe data di golang
+    > 1. string
+    > 2. integer
+    > 3. array
+    > 4. slice
+    > 5. map
+    > 6. boolean
+
+
+11. Membuat child packages
+    > 1. go mod init
+    > 2. buat main.go di root go
+    > 3. masukan packages sesuai bentuk yg sudah ada di go.mod ==> (module example/packages)
